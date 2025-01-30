@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /assets/img/hero/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of /assets/img/hero/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/assets/img/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="comic.png"><a href="/assets/img/hero/comic.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">comic.png</a></td><td data-sort="1718733504">2024-06-18 17:58</td><td data-sort="750563">    733k</td></tr>
+<tr><td data-sort="hero-background.jpg"><a href="/assets/img/hero/hero-background.jpg"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-background.jpg</a></td><td data-sort="1707125035">2024-02-05 09:23</td><td data-sort="30467">     30k</td></tr>
+<tr><td data-sort="hero-btn-bg_lg.svg"><a href="/assets/img/hero/hero-btn-bg_lg.svg"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-btn-bg_lg.svg</a></td><td data-sort="1734452105">2024-12-17 16:15</td><td data-sort="466">      1k</td></tr>
+<tr><td data-sort="hero-btn-bg_sm_1.svg"><a href="/assets/img/hero/hero-btn-bg_sm_1.svg"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-btn-bg_sm_1.svg</a></td><td data-sort="1734451945">2024-12-17 16:12</td><td data-sort="468">      1k</td></tr>
+<tr><td data-sort="hero-btn-bg_sm_2.svg"><a href="/assets/img/hero/hero-btn-bg_sm_2.svg"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-btn-bg_sm_2.svg</a></td><td data-sort="1734451964">2024-12-17 16:12</td><td data-sort="466">      1k</td></tr>
+<tr><td data-sort="hero-btn-bg_sm_3.svg"><a href="/assets/img/hero/hero-btn-bg_sm_3.svg"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-btn-bg_sm_3.svg</a></td><td data-sort="1734452028">2024-12-17 16:13</td><td data-sort="467">      1k</td></tr>
+<tr><td data-sort="hero-catfish.gif"><a href="/assets/img/hero/hero-catfish.gif"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-catfish.gif</a></td><td data-sort="1707137307">2024-02-05 12:48</td><td data-sort="332478">    325k</td></tr>
+<tr><td data-sort="hero-catfish.png"><a href="/assets/img/hero/hero-catfish.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-catfish.png</a></td><td data-sort="1734456554">2024-12-17 17:29</td><td data-sort="503757">    492k</td></tr>
+<tr><td data-sort="hero-message.png"><a href="/assets/img/hero/hero-message.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-message.png</a></td><td data-sort="1707125726">2024-02-05 09:35</td><td data-sort="18671">     19k</td></tr>
+<tr><td data-sort="hero-suptitle.png"><a href="/assets/img/hero/hero-suptitle.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">hero-suptitle.png</a></td><td data-sort="1718731467">2024-06-18 17:24</td><td data-sort="7525">      8k</td></tr>
+<tr><td data-sort="landdog.gif"><a href="/assets/img/hero/landdog.gif"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">landdog.gif</a></td><td data-sort="1718726519">2024-06-18 16:01</td><td data-sort="3931546">   3840k</td></tr>
+<tr><td data-sort="landwolf.png"><a href="/assets/img/hero/landwolf.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">landwolf.png</a></td><td data-sort="1718729509">2024-06-18 16:51</td><td data-sort="501920">    491k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at landdogeth.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
